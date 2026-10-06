@@ -25,7 +25,7 @@ O sistema foi desenvolvido utilizando o padrão de arquitetura **MVC (Model-View
 
 ## Passo a Passo para Usar o software.
 
-* Na pasta "Serv+cuscuz/db"
+* No caminho "Serv+cuscuz/db" 
 * baixe o banco de dados "serv_cuscuz.sql"
 * crie um banco dedos com o nome **"Serv+Cuscuz"** e importe a tebela que voçe fez o donwload
 * Caso use o "Xamp" como servidor local, importe para o seu banco de dados no phpmyadmin.
