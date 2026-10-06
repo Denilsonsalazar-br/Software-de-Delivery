@@ -1,21 +1,30 @@
-# Serv+Cuscuz: Sistema de Pedidos / Delivery
+# 🍽️ Serv+Cuscuz — Sistema de Pedidos / Delivery
 
-Projeto acadêmico desenvolvido para a gestão de pequenos negócios (delivery), estruturado sob o padrão de arquitetura MVC (Model-View-Controller). O sistema visa oferecer controle administrativo eficiente e segmentação de acessos, ideal para microempreendedores
+Projeto acadêmico desenvolvido para a gestão de pequenos negócios do segmento de delivery.
 
-## Funcionalidades Principais
-* **Controle de Acesso:** Segmentação por níveis de permissão (Administrador, Funcionário e Cliente).
-* **Painel Administrativo:** Gestão completa de produtos, categorias e configurações do sistema.
-* **Gestão de Produtos:** Cadastro, edição, exclusão e controle de estoque/detalhes.
-* **Gerenciamento de Mídia:** Upload e alteração de imagens para o carrossel de destaque.
-* **Arquitetura:** Padrão MVC para separação de responsabilidades e organização do código.
-* **Pedidos:** O cliente pode fazer o pedido, e o funcionário alter o status, c o cliente acompanhar a atualização.
+O sistema foi desenvolvido utilizando o padrão de arquitetura **MVC (Model-View-Controller)**, com o objetivo de organizar a aplicação, separar responsabilidades e oferecer diferentes níveis de acesso para administradores, funcionários e clientes.
 
-## Tecnologia Utilizadas
-*  PHP, JavaScript.
-* Banco de Dados: SQL, MySQL
-* Interface:  HTML5, CSS.
+## ⚙️ Funcionalidades Principais
+
+- **Controle de Acesso:** diferentes níveis de acesso para Administrador, Funcionário e Cliente.
+- **Painel Administrativo:** gerenciamento de produtos, categorias e configurações do sistema.
+- **Gestão de Produtos:** cadastro, edição, exclusão e gerenciamento das informações dos produtos.
+- **Categorias:** cadastro, edição e gerenciamento das categorias dos produtos.
+- **Gerenciamento de Mídia:** cadastro e alteração das imagens utilizadas no carrossel de destaque.
+- **Pedidos:** o cliente pode realizar pedidos, enquanto o funcionário pode atualizar o status e o cliente acompanhar o andamento do pedido.
+- **Arquitetura MVC:** organização do projeto utilizando o padrão Model-View-Controller.
+
+## 🛠️ Tecnologias Utilizadas
+
+- **PHP**
+- **JavaScript**
+- **HTML5**
+- **CSS3**
+- **SQL**
+- **MySQL**
 
 ## Passo a Passo para Usar o software.
+
 * Na pasta "Serv+cuscuz/db"
 * baixe o banco de dados "serv_cuscuz.sql"
 * crie um banco dedos com o nome **"Serv+Cuscuz"** e importe a tebela que voçe fez o donwload
@@ -25,13 +34,25 @@ Projeto acadêmico desenvolvido para a gestão de pequenos negócios (delivery),
 * O caminho padrão é esse **"C:\xampp\htdocs\Serv-Cuscuz\Serv+Cuscuz""**
 * Depois abra a pagina home.php, ou o navegador o caminho **C:\xampp\htdocs\Serv-Cuscuz\Serv+Cuscuz\pages\home.php**
 * já vem um pré cadastro de cliente, funcionário e administrador.
-* O email e senha de todos já forma definidos.
-* **Cliente** cliente@gmail.com |  **Senha** @Manter123
-* **Funcionário** funcionario@gmail.com | **Senha:** @Manter123
-* **Administrador:** administrador@gmail.com | **Senha:** admin
-* Caso queira, pode mudar a senha/criar novo perfil do funcionário pelo painel do Administrador.
-* E crie um novo Cliente. Só são aceitos CPF verdadeiros
 
+
+## 👤 Usuários para demonstração
+
+O banco de dados do projeto já possui usuários previamente cadastrados
+para facilitar a demonstração e os testes do sistema.
+
+| Perfil | E-mail | Senha |
+|---|---|---|
+| 👤 Cliente | `cliente@gmail.com` | `@Manter123` |
+| 👨‍💼 Funcionário | `funcionario@gmail.com` | `@Manter123` |
+| 👑 Administrador | `administrador@gmail.com` | `admin` |
+
+> **Observação:** essas são contas de demonstração disponibilizadas
+> exclusivamente para testes do projeto. Após o acesso, as credenciais
+> podem ser alteradas de acordo com as funcionalidades disponíveis
+> para cada perfil.
+> Caso queira, pode mudar a senha/criar novo perfil do funcionário pelo painel do Administrador.
+> Cadastre um novo Cliente. **"Só são aceitos CPF verdadeiros"**
 
 ## Status do Projeto
 🚧 **Em desenvolvimento**
